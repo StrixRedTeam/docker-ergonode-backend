@@ -93,7 +93,12 @@
         "preferred-install": {
             "*": "dist"
         },
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "symfony/flex": true,
+            "infection/extension-installer": true,
+            "dealerdirect/*": true
+        }
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
